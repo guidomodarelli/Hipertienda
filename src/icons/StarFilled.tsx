@@ -1,5 +1,5 @@
 import { cn } from "@/utils/cn";
-import { PropsWithClassName } from "./PropsWithClassname.type";
+import { PropsWithClassName } from "./PropsWithClassName.type";
 
 export function StarFilled({ className = "" }: PropsWithClassName) {
   return (

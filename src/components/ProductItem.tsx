@@ -1,6 +1,6 @@
 import { Product } from "@/types/product.type";
-import { StarFilled } from "@/icons/StarFilled";
 import ShoppingCartPlus from "@/icons/ShoppingCartPlus";
+import Rating from "./Rating";
 
 interface Props {
   product: Product;
@@ -15,13 +15,7 @@ function ProductItem({ product }: Props) {
           <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{product.title}</h5>
         </a>
         <div className="flex items-center mt-2.5 mb-5">
-          <div className="flex items-center space-x-1">
-            <StarFilled />
-            <StarFilled />
-            <StarFilled />
-            <StarFilled />
-            <StarFilled className="text-gray-300" />
-          </div>
+          <Rating rating={product.rating} />
           <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">
             {product.rating}
           </span>
