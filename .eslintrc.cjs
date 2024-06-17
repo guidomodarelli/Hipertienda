@@ -31,6 +31,7 @@ module.exports = {
       ],
       plugins: ["react-refresh", "unicorn"],
       rules: {
+        "react/prop-types": "off",
         "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
         "unicorn/prevent-abbreviations": [
           2,
@@ -48,7 +49,7 @@ module.exports = {
                 value: true,
               },
             },
-            ignore: ["i", "env"],
+            ignore: ["i", "env", "props", "Props", "ref"],
           },
         ],
         "unicorn/prefer-module": "off",
@@ -56,15 +57,13 @@ module.exports = {
           "error",
           {
             case: "pascalCase",
-            ignore: [
-              "main"
-            ]
+            ignore: ["main"],
           },
         ],
       },
     },
     {
-      files: ["src/**/utils/**/*.{ts,tsx}"],
+      files: ["src/**/utils/**/*.{ts,tsx}", "src/**/types/**/*.{ts,tsx}"],
       rules: {
         "unicorn/filename-case": [
           "error",
@@ -72,7 +71,18 @@ module.exports = {
             case: "kebabCase",
           },
         ],
-      }
+      },
+    },
+    {
+      files: ["src/**/hooks/**/*.{ts,tsx}"],
+      rules: {
+        "unicorn/filename-case": [
+          "error",
+          {
+            case: "camelCase",
+          },
+        ],
+      },
     },
     {
       files: ["**/*.json"],
