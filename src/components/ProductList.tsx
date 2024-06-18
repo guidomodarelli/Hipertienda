@@ -8,7 +8,7 @@ interface Properties {
 function ProductList({ products }: Properties) {
   return (
     <main>
-      <ul>
+      <ul className="grid grid-columns-auto-fit gap-2">
         {products.map((product) => (
           <ProductItem key={product.id} product={product} />
         ))}

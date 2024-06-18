@@ -1,25 +1,27 @@
-interface Option {
-  key: string;
+export const ALL_CATEGORIES = "all";
+
+interface CategoryOption {
+  value: string;
   label: string;
 }
 
 interface Output {
-  categories: Option[];
+  categories: CategoryOption[];
 }
 
 function useCategories(): Output {
   return {
     categories: [
       {
-        key: "all",
+        value: ALL_CATEGORIES,
         label: "Todas",
       },
       {
-        key: "laptops",
+        value: "laptops",
         label: "Notebooks",
       },
       {
-        key: "smartphones",
+        value: "smartphones",
         label: "Celulares",
       },
     ],
