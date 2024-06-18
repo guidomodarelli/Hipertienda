@@ -44,10 +44,9 @@ export function Combobox({
       <PopoverTrigger asChild>
         <Button
           variant="outline"
-          size="lg"
           role="combobox"
           aria-expanded={open}
-          className={cn("w-full justify-between", {
+          className={cn("w-full min-w-52 justify-between", {
             "w-fit": !value,
           })}
         >
@@ -55,7 +54,7 @@ export function Combobox({
           <ChevronsUpDown className="ml-2 size-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-full p-0">
+      <PopoverContent className="w-full max-w-52 p-0">
         <Command>
           <CommandInput placeholder={placeholder} />
           <CommandList>

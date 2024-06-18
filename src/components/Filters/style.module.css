@@ -1,0 +1,50 @@
+.section {
+  width: 100%;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+    @media (width >= 640px) {
+      flex-direction: row;
+      gap: 1rem;
+    }
+
+    .label {
+      max-width: 13rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      @media (width >= 640px) {
+        .price_min {
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+        }
+        .price_max {
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+        }
+      }
+    }
+  }
+
+  .range_price {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    @media (width >= 640px) {
+      flex-direction: row;
+      gap: 0px;
+    }
+
+    @media (width <= 640px) {
+      &:has(~ .label) {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}

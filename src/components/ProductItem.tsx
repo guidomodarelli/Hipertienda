@@ -1,6 +1,8 @@
 import { Product } from "@/types/product.type";
 import ShoppingCartPlus from "@/icons/ShoppingCartPlus";
 import Rating from "./Rating";
+import { Button } from "./ui/Button";
+import { Badge } from "./ui/Badge";
 
 interface Props {
   product: Product;
@@ -15,11 +17,9 @@ function ProductItem({ product }: Props) {
           <a href="#">
             <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{product.title}</h5>
           </a>
-          <div className="flex items-center mt-2.5 mb-5">
+          <div className="flex items-center mt-2.5 mb-5 gap-2">
             <Rating rating={product.rating} />
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">
-              {product.rating}
-            </span>
+            <Badge variant="outline">{product.rating}</Badge>
           </div>
           <div className="flex items-center justify-between">
             <span className="text-lg text-gray-900 dark:text-white">
@@ -28,12 +28,9 @@ function ProductItem({ product }: Props) {
                 currency: "USD",
               }).format(product.price)}
             </span>
-            <a
-              href="#"
-              className="hover:scale-110 transition-all focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center"
-            >
-              <ShoppingCartPlus />
-            </a>
+            <Button>
+              <ShoppingCartPlus className="size-5 text-white" />
+            </Button>
           </div>
         </div>
       </div>
