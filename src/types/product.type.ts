@@ -10,8 +10,8 @@ export interface Product {
   discountPercentage: number;
   rating: number;
   stock: number;
-  brand: string;
+  brand?: string | null;
   category: string;
   thumbnail: string;
-  images: string[];
+  images?: string[];
 }
