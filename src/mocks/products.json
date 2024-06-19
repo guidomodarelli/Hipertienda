@@ -32,7 +32,6 @@
       "discountPercentage": 15.46,
       "rating": 4.09,
       "stock": 36,
-      "brand": null,
       "category": "t-shirts",
       "thumbnail": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
     },
@@ -44,7 +43,6 @@
       "discountPercentage": 17.91,
       "rating": 4.3,
       "stock": 123,
-      "brand": null,
       "category": "shirt",
       "thumbnail": "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e"
     },
@@ -56,21 +54,19 @@
       "discountPercentage": 10.58,
       "rating": 4.09,
       "stock": 32,
-      "brand": "Huawei",
       "category": "smartphones",
       "thumbnail": "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
     },
     {
       "id": 6,
-      "title": "MacBook Pro",
-      "description": "",
+      "title": "Chomba floreada",
+      "description": "Un hombre parado frente a una palmera",
       "price": 1749,
       "discountPercentage": 11.02,
       "rating": 4.57,
       "stock": 83,
-      "brand": "",
-      "category": "laptops",
-      "thumbnail": ""
+      "category": "polo shirt",
+      "thumbnail": "https://images.unsplash.com/photo-1639747278969-14e563f2f34b"
     },
     {
       "id": 7,
@@ -80,45 +76,41 @@
       "discountPercentage": 4.15,
       "rating": 4.25,
       "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
+      "category": "Jacket",
       "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
     },
     {
       "id": 8,
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "title": "Vestido blanco de manga larga",
+      "description": "Mujer con vestido blanco de manga larga con gafas de sol negras",
       "price": 1499,
       "discountPercentage": 10.23,
       "rating": 4.43,
       "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": ""
+      "category": "Dress",
+      "thumbnail": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd"
     },
     {
       "id": 9,
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "title": "Vestido rojo",
+      "description": "Mujer con vestido rojo arrodillada en la arena",
       "price": 1099,
       "discountPercentage": 11.83,
       "rating": 4.54,
       "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": ""
+      "category": "Dress",
+      "thumbnail": "https://images.unsplash.com/photo-1550928431-ee0ec6db30d3"
     },
     {
       "id": 10,
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "title": "Vestido floreado",
+      "description": "Mujer con gafas de sol negras de pie cerca de una pared de madera blanca",
       "price": 1099,
       "discountPercentage": 6.18,
       "rating": 4.43,
       "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": ""
+      "category": "Dress",
+      "thumbnail": "https://images.unsplash.com/photo-1511130558090-00af810c21b1"
     },
     {
       "id": 11,
