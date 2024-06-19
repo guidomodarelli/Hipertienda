@@ -15,11 +15,11 @@ function Filters() {
         <div className={styles.range_price}>
           <Label className={styles.label}>
             Precio mínimo
-            <Input type="number" className={styles.price_min} placeholder="$ MIN"></Input>
+            <Input type="number" className={styles.price_min} placeholder="$ 0.00"></Input>
           </Label>
           <Label className={styles.label}>
             Precio máximo
-            <Input type="number" className={styles.price_max} placeholder="$ MAX"></Input>
+            <Input type="number" className={styles.price_max} placeholder="No definido"></Input>
           </Label>
         </div>
 
