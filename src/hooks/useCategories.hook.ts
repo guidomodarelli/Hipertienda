@@ -17,12 +17,24 @@ function useCategories(): Output {
         label: "Todas",
       },
       {
-        value: "laptops",
-        label: "Notebooks",
+        value: "t-shirts",
+        label: "Camisetas",
       },
       {
-        value: "smartphones",
-        label: "Celulares",
+        value: "shirt",
+        label: "Camisa",
+      },
+      {
+        value: "polo shirt",
+        label: "Chomba",
+      },
+      {
+        value: "jacket",
+        label: "Chaqueta",
+      },
+      {
+        value: "dress",
+        label: "Vestido",
       },
     ],
   };
