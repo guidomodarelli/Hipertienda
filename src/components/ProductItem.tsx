@@ -4,6 +4,7 @@ import Rating from "./Rating";
 import { Button } from "./ui/Button";
 import { Badge } from "./ui/Badge";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/Tooltip";
+import { TypographyP } from "./ui/typography/TypographyP";
 
 interface Props {
   product: Product;
@@ -24,7 +25,7 @@ function ProductItem({ product }: Props) {
                   </h5>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>{product.title}</p>
+                  <TypographyP>{product.title}</TypographyP>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
