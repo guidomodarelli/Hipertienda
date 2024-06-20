@@ -31,6 +31,7 @@ module.exports = {
       ],
       plugins: ["react-refresh", "unicorn"],
       rules: {
+        "@typescript-eslint/no-empty-interface": "off",
         "react/prop-types": "off",
         "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
         "unicorn/prevent-abbreviations": [
