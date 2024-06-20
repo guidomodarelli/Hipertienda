@@ -54,7 +54,7 @@
       "discountPercentage": 10.58,
       "rating": 4.09,
       "stock": 32,
-      "category": "smartphones",
+      "category": "shirt",
       "thumbnail": "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
     },
     {
@@ -87,7 +87,7 @@
       "discountPercentage": 10.23,
       "rating": 4.43,
       "stock": 68,
-      "category": "Dress",
+      "category": "dress",
       "thumbnail": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd"
     },
     {
@@ -98,7 +98,7 @@
       "discountPercentage": 11.83,
       "rating": 4.54,
       "stock": 96,
-      "category": "Dress",
+      "category": "dress",
       "thumbnail": "https://images.unsplash.com/photo-1550928431-ee0ec6db30d3"
     },
     {
@@ -109,7 +109,7 @@
       "discountPercentage": 6.18,
       "rating": 4.43,
       "stock": 89,
-      "category": "Dress",
+      "category": "dress",
       "thumbnail": "https://images.unsplash.com/photo-1511130558090-00af810c21b1"
     },
     {
